@@ -2,10 +2,7 @@ import '../css/Home.css';
 
 function Home(){
     return(
-        <div>
-            
-        </div>
+        <h5>Home page</h5>
     );
 }
-
 export default Home
