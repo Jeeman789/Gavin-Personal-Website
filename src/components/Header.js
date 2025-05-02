@@ -4,7 +4,7 @@ import { Outlet, Link } from 'react-router-dom';
 const Header = () => {
     return(
         <>
-            <div className='website-header'>
+            <header className='website-header'>
                 <nav className='nav-links'>
                     <div className='nav-link'>
                         <Link to="/">HOME</Link>
@@ -16,7 +16,7 @@ const Header = () => {
                         <Link to="/Contact">CONTACT</Link>
                     </div>
                 </nav>
-            </div>
+            </header>
 
             <Outlet />
         </>
