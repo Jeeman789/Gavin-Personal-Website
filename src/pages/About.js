@@ -1,8 +1,16 @@
 import '../css/About.css';
+import Carousel from '../components/Carousel';
 
 function About(){
     return(
-        <h5>About page</h5>
+        <>
+            <div className='carousel-container'>
+            <Carousel />
+            </div>
+            <div className='about-content'>
+                
+            </div>
+        </>
     );
 }
 export default About
