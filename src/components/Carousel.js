@@ -7,9 +7,7 @@ const Carousel = (props) => {
     
     return(
         <>
-        <div className="container">
-            <h1>No Image</h1>
-        </div>
+        <img src={props.image}></img>
         </>
     );
 }

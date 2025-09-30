@@ -1,0 +1,36 @@
+#intro-entries{
+    width: 70%;
+    background-color: #CCCCFF;
+}
+
+.intro-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 300px;
+}
+
+.intro-content img{
+    height: 200px;
+    width: 200px;
+}
+
+.intro-text{
+    height: 300px;
+    width: 350px;
+    align-items: flex-start;
+}
+
+.intro-text h4{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.intro-text p{
+    color: black;
+    font-size: 16px;
+}
